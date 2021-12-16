@@ -1,0 +1,157 @@
+.main 
+{
+   width: inherit;
+   height: 109vh;
+   border-bottom: 8px solid #222;
+   
+   &__background
+   {
+      width: 100%;
+      height: 109vh;
+      background: url("../images/website_small.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 50% 65%;
+      position: absolute;
+      filter: brightness(0.4);
+   }
+
+   .header 
+   {
+      position: relative;
+
+      .header_items
+      {
+         display: flex;
+         justify-content: space-between;
+         margin: 0 56px;
+
+         &__logo 
+         {
+            height: 76px;
+            margin-top: 8px;
+         }
+
+         &__buttons
+         {
+            margin-top: 26px;
+
+            &--lenguage
+            {
+               color: #fff;
+               padding: 8px 22px;
+               background: rgba(0,0,0,.4);
+               border: 1px solid #aaa;
+               font-size: 14rem;
+               margin-right: 32px;
+               width: 97px;
+               appearance: none;
+               border-radius: 2px;
+               line-height: 18px;
+               font-family: 'NetflixSans';
+            }
+
+            &--login 
+            {
+               background-color: #e50914;
+               line-height: normal;
+               padding: 7px 17px;
+               font-weight: 400;
+               font-size: 16px;
+               border-radius: 3px;
+               border: none;
+               
+               a 
+               {
+                  color: #fff;
+                  text-decoration: none;
+               }
+            }
+         }
+      }
+   }
+   
+   &__info
+   {
+      color: white;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 146px 45px 70px;
+      max-width: 950px;
+      text-align: center;
+      margin: 0 auto;
+   
+      h1 
+      {
+         font-size: 49.6rem;
+         width: 640px;
+         max-width: 640px;
+         margin: 0 auto;
+         text-align: center;
+         line-height: 1.1;
+         font-family: 'NetflixSans';
+         letter-spacing: 0.86px;
+      }
+   
+      h2 
+      {
+         font-size: 26rem;
+         margin: 16px auto;
+         font-weight: 400;
+      }
+
+      .form 
+      {
+         padding-top: 13.6px;
+         max-width: 950px;
+
+         h3 
+         {
+            font-size: 19.2rem;
+            font-weight: 400;
+            padding-bottom: 20px;
+         }
+
+         .input 
+         {
+            display: flex;
+            justify-content: center;
+            
+            &__email 
+            {
+               width: 450px;
+               height: 60px;
+               padding: 10px 10px 0;
+               box-sizing: border-box;
+            }
+   
+            &__submit
+            {
+               color: #fff;
+               width: 198.5px;
+               height: 60px;
+               background-color: #e50914;
+               border: none;
+               border-left: 1px solid #333;
+               font-size: 26rem;
+               padding: 0 26px;
+               display: flex;
+               align-items: center;
+               letter-spacing: 0.2px;
+
+               .arrow
+               {
+                  display: flex;
+                  margin-left: 6px;
+               }
+            }
+         }
+      }
+   }
+}
+
+
+

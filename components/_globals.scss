@@ -1,0 +1,29 @@
+$white: #fff;
+
+@font-face 
+{
+   font-family: 'NetflixSans';
+   src: url('../fonts/NetflixSansRegular.ttf') format('truetype');
+   font-style: normal;
+   font-weight: normal;
+}
+
+* 
+{
+   margin: 0;
+   padding: 0;
+}
+
+html 
+{
+   font-size: 6.25%;
+}
+
+body 
+{
+   width: 100%;
+   box-sizing: border-box;
+   font-family: 'NetflixSans'
+}
+
+
