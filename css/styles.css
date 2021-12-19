@@ -188,7 +188,6 @@ body {
 .sections {
   border-bottom: 8px solid #222;
   padding: 70px 45px;
-  height: 473.92px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background: black;
@@ -219,6 +218,7 @@ body {
   font-size: 50rem;
   line-height: 1.1;
   margin-bottom: 8px;
+  letter-spacing: 0.5px;
 }
 
 .sections .container__text h3 {
@@ -264,5 +264,84 @@ body {
   -webkit-transform: translate(-50%, -47%);
           transform: translate(-50%, -47%);
   overflow: hidden;
+}
+
+.sections .container__video .animation__video--image {
+  margin: 0 16px 0 0;
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.sections .container__video .animation__video.stranger_animation {
+  margin: -8% 0 -4% -15%;
+  /* min-height: 100px; */
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  bottom: 8%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin: 0 auto;
+  background: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 60%;
+  min-width: 240px;
+  padding: 0.25em 0.65em;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 0 0 2em 0 #000;
+  box-shadow: 0 0 32px 0 #000;
+  border-radius: 12px;
+  padding: 8px 12px;
+}
+
+.sections .container.reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-flow: row-reverse;
+      flex-flow: row-reverse;
+}
+
+.sections .container.reverse .container__text {
+  padding: 0 0 0 48px;
+}
+
+.sections .container.reverse .stranger .animation {
+  margin: -8% 0 -4% -15%;
+  min-height: 100px;
+  width: 100%;
+}
+
+.sections.device .container .animation {
+  margin: -5% -10% 0 0;
+}
+
+.sections.device .container img {
+  position: relative;
+  z-index: 2;
+}
+
+.sections.device .animation__video {
+  width: 100%;
+  height: 100%;
+  max-width: 63%;
+  max-height: 47%;
+  position: absolute;
+  top: 34%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.sections.device .animation__video video {
+  width: 100%;
+  height: 100%;
 }
 /*# sourceMappingURL=styles.css.map */
