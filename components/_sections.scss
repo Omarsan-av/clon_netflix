@@ -123,6 +123,16 @@
             }
          }
       }
+
+      &__video.kids 
+      {
+         .animation
+         {
+            position: relative;
+            overflow: hidden;
+            margin: auto;
+         }
+      }
    }
 
    .container.reverse 
@@ -142,6 +152,26 @@
       margin: -8% 0 -4% -15%;
       min-height: 100px;
       width: 100%;
+   }
+
+   .faq
+   {
+      text-align: center;
+
+      h2 
+      {
+         font-size: 50px;
+         line-height: 1.1;
+         margin-bottom: 8px;
+         letter-spacing: 0.5px;
+      }
+
+      .faq-list 
+      {
+         width: 75%;
+         margin: 52px auto;
+         max-width: 815px;
+      }
    }
 }
 

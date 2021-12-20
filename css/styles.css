@@ -21,6 +21,11 @@ body {
   font-family: 'NetflixSans';
 }
 
+ul {
+  padding: 0;
+  list-style: none;
+}
+
 .main {
   width: inherit;
   height: 109vh;
@@ -302,6 +307,12 @@ body {
   padding: 8px 12px;
 }
 
+.sections .container__video.kids .animation {
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+}
+
 .sections .container.reverse {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
@@ -317,6 +328,23 @@ body {
   margin: -8% 0 -4% -15%;
   min-height: 100px;
   width: 100%;
+}
+
+.sections .faq {
+  text-align: center;
+}
+
+.sections .faq h2 {
+  font-size: 50px;
+  line-height: 1.1;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+}
+
+.sections .faq .faq-list {
+  width: 75%;
+  margin: 52px auto;
+  max-width: 815px;
 }
 
 .sections.device .container .animation {
