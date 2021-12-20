@@ -26,6 +26,66 @@ ul {
   list-style: none;
 }
 
+button {
+  -webkit-appearance: button;
+  cursor: pointer;
+  font-family: 'NetflixSans';
+}
+
+.form {
+  padding-top: 13.6px;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.form h3 {
+  font-size: 19.2rem;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.form .input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form .input__email {
+  width: 450px;
+  height: 60px;
+  padding: 10px 10px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.form .input__submit {
+  color: #fff;
+  width: 198.5px;
+  height: 60px;
+  background-color: #e50914;
+  border: none;
+  border-left: 1px solid #333;
+  font-size: 26rem;
+  padding: 0 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.2px;
+}
+
+.form .input__submit .arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 6px;
+}
+
 .main {
   width: inherit;
   height: 109vh;
@@ -135,59 +195,6 @@ ul {
   font-size: 26rem;
   margin: 16px auto;
   font-weight: 400;
-}
-
-.main__info .form {
-  padding-top: 13.6px;
-  max-width: 950px;
-}
-
-.main__info .form h3 {
-  font-size: 19.2rem;
-  font-weight: 400;
-  padding-bottom: 20px;
-}
-
-.main__info .form .input {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.main__info .form .input__email {
-  width: 450px;
-  height: 60px;
-  padding: 10px 10px 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.main__info .form .input__submit {
-  color: #fff;
-  width: 198.5px;
-  height: 60px;
-  background-color: #e50914;
-  border: none;
-  border-left: 1px solid #333;
-  font-size: 26rem;
-  padding: 0 26px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  letter-spacing: 0.2px;
-}
-
-.main__info .form .input__submit .arrow {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: 6px;
 }
 
 .sections {
@@ -345,6 +352,24 @@ ul {
   width: 75%;
   margin: 52px auto;
   max-width: 815px;
+}
+
+.sections .faq .faq-list__item {
+  margin: 0 0 9px 0;
+}
+
+.sections .faq .faq-list__item--button {
+  padding: 20.8px 57.2px 20.8px 31.2px;
+  font-weight: 400;
+  position: relative;
+  width: 100%;
+  border: 0;
+  display: block;
+  text-align: left;
+  background: #303030;
+  font-size: 26px;
+  color: white;
+  letter-spacing: 0.2px;
 }
 
 .sections.device .container .animation {

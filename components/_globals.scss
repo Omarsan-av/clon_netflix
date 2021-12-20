@@ -32,4 +32,60 @@ ul
    list-style: none;
 }
 
+button
+{
+   -webkit-appearance: button;
+   cursor: pointer;
+   font-family: 'NetflixSans';
+}
+
+.form 
+{
+   padding-top: 13.6px;
+   max-width: 950px;
+   margin: 0 auto;
+
+   h3 
+   {
+      font-size: 19.2rem;
+      font-weight: 400;
+      padding-bottom: 20px;
+   }
+
+   .input 
+   {
+      display: flex;
+      justify-content: center;
+      
+      &__email 
+      {
+         width: 450px;
+         height: 60px;
+         padding: 10px 10px 0;
+         box-sizing: border-box;
+      }
+
+      &__submit
+      {
+         color: #fff;
+         width: 198.5px;
+         height: 60px;
+         background-color: #e50914;
+         border: none;
+         border-left: 1px solid #333;
+         font-size: 26rem;
+         padding: 0 26px;
+         display: flex;
+         align-items: center;
+         letter-spacing: 0.2px;
+
+         .arrow
+         {
+            display: flex;
+            margin-left: 6px;
+         }
+      }
+   }
+}
+
 
