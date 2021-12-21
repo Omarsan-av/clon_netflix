@@ -82,7 +82,14 @@ button
          .arrow
          {
             display: flex;
-            margin-left: 6px;
+            margin-left: 10px;
+            margin-top: 4px;
+
+            svg 
+            {
+               height: 15px;
+               width: 15px;
+            }
          }
       }
    }

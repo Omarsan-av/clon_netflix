@@ -68,6 +68,16 @@
                }
             }
          }
+
+         &__buttons::before
+         {
+            content: '\e896';
+            font-family: nf-icon;
+            color: #000;
+            font-size: 16px;
+            position: absolute;
+            pointer-events: none;
+         }
       }
    }
    
