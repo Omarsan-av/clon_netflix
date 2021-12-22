@@ -19,6 +19,7 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: 'NetflixSans';
+  background: black;
 }
 
 ul {
@@ -217,7 +218,6 @@ button {
   padding: 70px 45px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background: black;
   color: #fff;
 }
 
@@ -453,5 +453,96 @@ button {
 .sections.device .animation__video video {
   width: 100%;
   height: 100%;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 70px 45px 0;
+}
+
+.footer-container .wrapper {
+  min-width: 190px;
+  width: 100%;
+  margin-top: 0;
+  padding-bottom: 20px;
+  font-size: 16rem;
+  color: #757575;
+  position: relative;
+}
+
+.footer-container .wrapper .site-footer {
+  padding-top: 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.footer-container .wrapper .site-footer .footer-p {
+  padding: 0;
+  margin: 0 0 30px;
+}
+
+.footer-container .wrapper .site-footer .footer-p .phone-number {
+  text-decoration: none;
+  color: #757575;
+}
+
+.footer-container .wrapper .site-footer .footer-p .phone-number:hover {
+  text-decoration: underline;
+}
+
+.footer-container .wrapper .site-footer .footer-links {
+  padding: 0;
+  margin: 0;
+  max-width: 1000px;
+  font-size: 13rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer-container .wrapper .site-footer .footer-links__item {
+  list-style: none;
+  margin-left: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin-bottom: 16px;
+  min-width: 100px;
+  width: 25%;
+  padding-right: 12px;
+  vertical-align: top;
+}
+
+.footer-container .wrapper .site-footer .footer-links__item a {
+  color: #757575;
+  text-decoration: none;
+}
+
+.footer-container .wrapper .site-footer .footer-links__item a:hover {
+  text-decoration: underline;
+}
+
+.footer-container .wrapper .site-footer .lang-selection-container {
+  margin-top: 20px;
+}
+
+.footer-container .wrapper .site-footer .lang-selection-container select {
+  font-size: 16rem;
+  background: transparent;
+  color: #757575;
+  border: 1px solid #333;
+  font-family: 'NetflixSans';
+  padding: 12px;
+}
+
+.footer-container .wrapper .site-footer .footer-country {
+  font-size: 13rem;
+  margin-top: 24px;
+  margin-bottom: 13px;
 }
 /*# sourceMappingURL=styles.css.map */
