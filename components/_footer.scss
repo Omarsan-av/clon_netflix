@@ -1,0 +1,100 @@
+  
+
+   .footer-container 
+   {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 70px 45px 0;
+
+      .wrapper
+      {
+         min-width: 190px;
+         width: 100%;
+         margin-top: 0;
+         padding-bottom: 20px;
+         font-size: 16rem;
+         color: $text-color;
+         position: relative;
+
+         .site-footer
+         {
+            padding-top: 0;
+            width: 90%;
+            margin: 0 auto;
+
+            .footer-p 
+            {
+               padding: 0;
+               margin: 0 0 30px;
+
+               .phone-number 
+               {
+                  text-decoration: none;
+                  color: #757575;
+               }  
+
+               .phone-number:hover 
+               {
+                  text-decoration: underline;
+               }
+            }
+
+            .footer-links
+            {
+               padding: 0;
+               margin: 0;
+               max-width: 1000px;
+               font-size: 13rem;
+               box-sizing: border-box;
+               display: flex;
+               flex-wrap: wrap;
+
+               &__item 
+               {
+                  list-style: none;
+                  margin-left: 0;
+                  box-sizing: border-box;
+                  padding: 0;
+                  margin-bottom: 16px;
+                  min-width: 100px;
+                  width: 25%;
+                  padding-right: 12px;
+                  vertical-align: top;
+
+                  a 
+                  {
+                     color: #757575;
+                     text-decoration: none;
+                  }
+
+                  a:hover 
+                  {
+                     text-decoration: underline;
+                  }
+               }
+            }
+
+            .lang-selection-container 
+            {
+               margin-top: 20px;
+
+               select 
+               {
+                  font-size: 16rem;
+                  background: transparent;
+                  color: #757575;
+                  border: 1px solid #333;
+                  font-family: 'NetflixSans';
+                  padding: 12px;
+               }
+            }
+
+            .footer-country 
+            {
+               font-size: 13rem;
+               margin-top: 24px;
+               margin-bottom: 13px;
+            }
+         }
+      }
+   }

@@ -60,6 +60,11 @@ button {
   padding: 10px 10px 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  outline: none;
+}
+
+.form .input__email:focus {
+  border-color: #0071eb;
 }
 
 .form .input__submit {
@@ -412,7 +417,7 @@ button {
 }
 
 .sections .faq .faq-list__item {
-  margin: 0 0 9px 0;
+  margin: 0 0 8px 0;
 }
 
 .sections .faq .faq-list__item--button {
@@ -427,6 +432,28 @@ button {
   font-size: 26rem;
   color: white;
   letter-spacing: 0.2px;
+  margin-bottom: 1px;
+}
+
+.sections .faq .faq-list__item .answer span {
+  background: #303030;
+  font-size: 26rem;
+  text-align: left;
+  padding: 31.2px;
+  display: inline-block;
+}
+
+.sections .faq .faq-list__item .answer.open {
+  max-height: 1200px;
+  -webkit-transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+  transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+}
+
+.sections .faq .faq-list__item .answer.closed {
+  max-height: 0px;
+  overflow: hidden;
+  -webkit-transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+  transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
 }
 
 .sections.device .container .animation {
