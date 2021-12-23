@@ -217,6 +217,22 @@
                color: white;
                letter-spacing: 0.2px;
                margin-bottom: 1px;
+
+               .svg-x
+               {
+                  position: absolute;
+                  right: 26px;
+                  top: 50%;
+                  height: 26px;
+                  width: 26px;
+                  fill: #fff;
+                  transform:  translateY(-50%) rotate(0deg);
+               }
+
+               .rotate
+               {
+                  transform:  translateY(-50%) rotate(-45deg);
+               }
             }
 
             .answer span

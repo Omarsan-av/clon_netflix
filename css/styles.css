@@ -435,6 +435,22 @@ button {
   margin-bottom: 1px;
 }
 
+.sections .faq .faq-list__item--button .svg-x {
+  position: absolute;
+  right: 26px;
+  top: 50%;
+  height: 26px;
+  width: 26px;
+  fill: #fff;
+  -webkit-transform: translateY(-50%) rotate(0deg);
+          transform: translateY(-50%) rotate(0deg);
+}
+
+.sections .faq .faq-list__item--button .rotate {
+  -webkit-transform: translateY(-50%) rotate(-45deg);
+          transform: translateY(-50%) rotate(-45deg);
+}
+
 .sections .faq .faq-list__item .answer span {
   background: #303030;
   font-size: 26rem;
