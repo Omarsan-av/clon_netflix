@@ -34,32 +34,19 @@
 
          &__buttons
          {
-            margin-top: 26px;
-
-            &--lenguage
-            {
-               color: #fff;
-               padding: 8px 22px;
-               background: rgba(0,0,0,.4);
-               border: 1px solid #aaa;
-               font-size: 14rem;
-               margin-right: 32px;
-               width: 97px;
-               appearance: none;
-               border-radius: 2px;
-               line-height: 18px;
-               font-family: 'NetflixSans';
-            }
+            margin-top: 28px;
+            position: relative;
 
             &--login 
             {
                background-color: #e50914;
                line-height: normal;
-               padding: 7px 17px;
+               padding: 7px 16px;
                font-weight: 400;
                font-size: 16px;
                border-radius: 3px;
                border: none;
+               height: 32px;
                
                a 
                {
@@ -67,16 +54,6 @@
                   text-decoration: none;
                }
             }
-         }
-
-         &__buttons::before
-         {
-            content: '\e896';
-            font-family: nf-icon;
-            color: #000;
-            font-size: 16px;
-            position: absolute;
-            pointer-events: none;
          }
       }
    }
