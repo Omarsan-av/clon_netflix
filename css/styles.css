@@ -94,6 +94,8 @@ option {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
+  width: 850px;
 }
 
 .form .input__email {
@@ -105,6 +107,29 @@ option {
   outline: none;
   margin-bottom: 10px;
   font-size: 16px;
+  border-radius: 2px;
+  border: none;
+  border: solid 1px #8c8c8c;
+}
+
+.form .input input:focus + label,
+.form .input input:valid + label {
+  top: 7px;
+  font-size: 13px;
+  font-weight: 700;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.form .input label {
+  position: absolute;
+  transition: font .1s ease,top .1s ease,transform .1s ease,-webkit-transform .1s ease;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  top: 45%;
+  left: 110px;
+  color: #8c8c8c;
+  font-size: 16rem;
 }
 
 .form .input__email:focus {

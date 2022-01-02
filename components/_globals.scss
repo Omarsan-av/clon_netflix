@@ -103,6 +103,8 @@ option
    {
       display: flex;
       justify-content: center;
+      position: relative;
+      width: 850px;
       
       &__email 
       {
@@ -113,6 +115,29 @@ option
          outline: none;
          margin-bottom: 10px;
          font-size: 16px;
+         border-radius: 2px;
+         border: none;
+         border: solid 1px #8c8c8c;
+      }
+
+      input:focus+label,
+      input:valid+label
+      {
+         top: 7px;
+         font-size: 13px;
+         font-weight: 700;
+         transform: translateY(0);
+      }
+
+      label 
+      {
+         position: absolute;
+         transition: font .1s ease,top .1s ease,transform .1s ease,-webkit-transform .1s ease;
+         transform: translateY(-50%);
+         top: 45%;
+         left: 110px;
+         color: #8c8c8c;
+         font-size: 16rem;
       }
 
       &__email:focus 
@@ -149,5 +174,4 @@ option
       }
    }
 }
-
 
