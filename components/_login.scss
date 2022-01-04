@@ -421,6 +421,12 @@ body
             height: 48px;
          }
 
+         select,
+         option 
+         {
+            background: #00000066;
+         }
+
          .globe-down 
          {
             margin-left: 15px;

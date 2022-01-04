@@ -382,6 +382,11 @@ body {
   height: 48px;
 }
 
+.login .footer .lang-selection-container select,
+.login .footer .lang-selection-container option {
+  background: #00000066;
+}
+
 .login .footer .lang-selection-container .globe-down {
   margin-left: 15px;
   width: 15px;
