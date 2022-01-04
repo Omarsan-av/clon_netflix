@@ -73,7 +73,6 @@ option {
   color: white;
   left: 78px;
   top: 6px;
-  z-index: -1;
 }
 
 .form {
@@ -597,17 +596,17 @@ option {
   margin: 0 auto;
 }
 
-.footer-container .wrapper .site-footer .footer-p {
+.footer-container .wrapper .site-footer .footer-call {
   padding: 0;
   margin: 0 0 30px;
 }
 
-.footer-container .wrapper .site-footer .footer-p .phone-number {
+.footer-container .wrapper .site-footer .footer-call .phone-number {
   text-decoration: none;
   color: #757575;
 }
 
-.footer-container .wrapper .site-footer .footer-p .phone-number:hover {
+.footer-container .wrapper .site-footer .footer-call .phone-number:hover {
   text-decoration: underline;
 }
 

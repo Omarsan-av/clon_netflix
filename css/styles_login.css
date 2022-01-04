@@ -41,6 +41,7 @@ body {
 .login__background img {
   min-height: 100%;
   min-width: 100%;
+  height: 100%;
   border: 0;
 }
 
@@ -86,6 +87,9 @@ body {
   margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.75);
   padding: 60px 68px 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 90px;
 }
 
 .login__body .card h1 {
@@ -266,12 +270,12 @@ body {
   display: inline-block;
 }
 
-.login__body .card .suscribe__recaptcha span a {
+.login__body .card .suscribe__recaptcha a {
   color: #0071eb;
   text-decoration: none;
 }
 
-.login__body .card .suscribe__recaptcha span a:hover {
+.login__body .card .suscribe__recaptcha a:hover {
   text-decoration: underline;
 }
 
@@ -287,22 +291,114 @@ body {
   display: block;
 }
 
-.footer {
+.login .footer {
   min-width: 190px;
   width: 100%;
   margin-top: 0;
   padding-bottom: 20px;
-  font-size: 1em;
+  font-size: 16px;
   color: #757575;
   position: relative;
   background: #000000bf;
 }
 
-.footer__site {
+.login .footer__site {
   color: #757575;
   max-width: 1000px;
   margin: 0 auto;
   padding: 30px 0;
   width: 90%;
+}
+
+.login .footer__title {
+  margin: 0 0 30px;
+}
+
+.login .footer__title a {
+  color: #757575;
+  text-decoration: none;
+}
+
+.login .footer__title a:hover {
+  text-decoration: underline;
+}
+
+.login .footer__list {
+  margin: 0;
+  padding: 0;
+  max-width: 1000px;
+  font-size: 13rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.login .footer__list li {
+  list-style: none;
+  margin-left: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin-bottom: 16px;
+  min-width: 100px;
+  width: 25%;
+  padding-right: 12px;
+  vertical-align: top;
+}
+
+.login .footer__list li a {
+  text-decoration: none;
+  color: #757575;
+}
+
+.login .footer__list li a:hover {
+  text-decoration: underline;
+}
+
+.login .footer .lang-selection-container {
+  margin-top: 20px;
+  position: relative;
+}
+
+.login .footer .lang-selection-container select {
+  font-size: 13rem;
+  background: transparent;
+  color: #757575;
+  border: 1px solid #333;
+  padding: 12px;
+  width: 137px;
+  height: 53.19px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 1px solid #333;
+  background: #000;
+  line-height: 1.7;
+  width: 125px;
+  height: 48px;
+}
+
+.login .footer .lang-selection-container .globe-down {
+  margin-left: 15px;
+  width: 15px;
+  margin-top: 17px;
+  color: #757575;
+  position: absolute;
+}
+
+.login .footer .lang-selection-container .select-down {
+  padding: 12px 26px 12px 50px;
+}
+
+.login .footer .lang-selection-container .arrow-down {
+  width: 10px;
+  left: 105px;
+  top: 12px;
+  color: #757575;
+  position: absolute;
 }
 /*# sourceMappingURL=styles_login.css.map */
