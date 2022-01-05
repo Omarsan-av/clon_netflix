@@ -1,13 +1,11 @@
-$white: #fff;
 $text-color: #757575;
-
-@font-face 
-{
-   font-family: 'NetflixSans';
-   src: url('../fonts/NetflixSansRegular.ttf') format('truetype');
-   font-style: normal;
-   font-weight: normal;
-}
+$dark-color: #000;
+$light-color: #fff;
+$light-gray: #8c8c8c;
+$dark-gray: #333;
+$gray: #737373;
+$blue: #0071eb;
+$red: #e50914;
 
 * 
 {
@@ -18,14 +16,6 @@ $text-color: #757575;
 html 
 {
    font-size: 6.25%;
-}
-
-body 
-{
-   width: 100%;
-   box-sizing: border-box;
-   font-family: 'NetflixSans';
-   background: black;
 }
 
 img 
@@ -45,134 +35,3 @@ button
    cursor: pointer;
    font-family: 'NetflixSans';
 }
-
-select,
-option 
-{
-   background: #00000066;
-   font-family: 'NetflixSans';
-}
-
-.lenguage
-{
-   color: #fff;
-   padding: 8px 22px;
-   background: rgba(0,0,0,.4);
-   border: 1px solid #aaa;
-   font-size: 14rem;
-   margin-right: 32px;
-   width: 97px;
-   appearance: none;
-   border-radius: 2px;
-   line-height: 18px;
-   font-family: 'NetflixSans';
-}
-
-.globe 
-{
-   position: absolute;
-   color: white;
-   margin-left: 6px;
-   width: 12px;
-   margin-top: 12px;
-}
-
-.down 
-{
-   position: absolute;
-   width: 11px;
-   color: white;
-   left: 78px;
-   top: 6px;
-   z-index: -1;
-}
-
-.form 
-{
-   padding-top: 13.6px;
-   max-width: 950px;
-   margin: 0 auto;
-
-   h3 
-   {
-      font-size: 19.2rem;
-      font-weight: 400;
-      padding-bottom: 20px;
-   }
-
-   .input 
-   {
-      display: flex;
-      justify-content: center;
-      position: relative;
-      width: 850px;
-      
-      &__email 
-      {
-         width: 450px;
-         height: 60px;
-         padding: 10px 10px 0;
-         box-sizing: border-box;
-         outline: none;
-         margin-bottom: 10px;
-         font-size: 16px;
-         border-radius: 2px;
-         border: none;
-         border: solid 1px #8c8c8c;
-      }
-
-      input:focus+label,
-      input:valid+label
-      {
-         top: 7px;
-         font-size: 13px;
-         font-weight: 700;
-         transform: translateY(0);
-      }
-
-      label 
-      {
-         position: absolute;
-         transition: font .1s ease,top .1s ease,transform .1s ease,-webkit-transform .1s ease;
-         transform: translateY(-50%);
-         top: 45%;
-         left: 110px;
-         color: #8c8c8c;
-         font-size: 16rem;
-      }
-
-      &__email:focus 
-      {
-         border-color: #0071eb;
-      }
-
-      &__submit
-      {
-         color: #fff;
-         width: 198.5px;
-         height: 60px;
-         background-color: #e50914;
-         border: none;
-         border-left: 1px solid #333;
-         font-size: 26rem;
-         padding: 0 26px;
-         display: flex;
-         align-items: center;
-         letter-spacing: 0.2px;
-
-         .arrow
-         {
-            display: flex;
-            margin-left: 10px;
-            margin-top: 4px;
-
-            svg 
-            {
-               height: 15px;
-               width: 15px;
-            }
-         }
-      }
-   }
-}
-

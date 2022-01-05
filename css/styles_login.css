@@ -384,7 +384,7 @@ body {
 
 .login .footer .lang-selection-container select,
 .login .footer .lang-selection-container option {
-  background: #00000066;
+  background: black;
 }
 
 .login .footer .lang-selection-container .globe-down {
