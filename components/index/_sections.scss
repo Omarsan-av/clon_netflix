@@ -291,4 +291,85 @@
          height: 100%;
       }
    }
+   .mac-image
+   {
+      margin-left: -50px;
+   }
+   .mac-video 
+   {
+      left: 40%;
+   }
+}
+
+@media (max-width: 600px) 
+{
+   body 
+   {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .sections 
+   {
+      padding: 50px 5% 52px;
+
+      .container 
+      {
+         display: block;
+
+         &__text
+         {
+            text-align: center;
+            width: 100%;
+
+            h2 
+            {
+               font-size: 26px;
+            }
+
+            h3 
+            {
+               font-size: 18px;
+               margin: 13.5px 0;
+            }
+         }
+
+         &__video 
+         {
+            margin-top: 20px;
+            width: 100%;
+
+            .animation 
+            {
+               width: 100%;
+               z-index: -1;
+
+               .mac-image
+               {
+                  margin-left: unset;
+               }
+
+               .mac-video 
+               {
+                  left: 50%;
+               }
+            }
+         }
+      }
+
+      .container.reverse .container__text
+      {
+         padding: 0;
+      }
+   }
+
+   .sections .container.reverse .stranger .animation 
+   {
+      margin-left: 0;
+   }
+
+   .sections:nth-child(2), .sections:nth-child(5) 
+   {
+      padding-bottom: 70px;
+   }
 }

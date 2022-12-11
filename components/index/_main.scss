@@ -332,7 +332,7 @@ option
 
                label 
                {
-                  top: 20%;
+                  top: 24%;
                   left: 3%;
                   font-size: 14px;
                }
@@ -354,7 +354,7 @@ option
                &__submit 
                {
                   margin: 5px auto;
-                  padding: 0 16px;
+                  padding: 0 14px;
                   font-size: 16px;
                   height: 40px;
                   width: auto;
@@ -363,7 +363,23 @@ option
                   {
                      padding: 5.6px 0;
                   }
+
+                  .arrow 
+                  {
+                     margin-left: 5px;
+                     margin-top: 2px;
+
+                     svg 
+                     {
+                        height: 10px;
+                        width: 10px;
+                     }
+                  }
                }
+            }
+            h3
+            {
+               font-size: 18px;
             }
          }
          
