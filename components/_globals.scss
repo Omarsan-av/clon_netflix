@@ -13,10 +13,14 @@ $red: #e50914;
    padding: 0;
 }
 
-html 
+html
 {
    font-size: 6.25%;
-   overflow-y: hidden;
+}
+
+html, body 
+{
+   overflow-x: hidden;
 }
 
 img 
