@@ -1,4 +1,4 @@
-@import url("../components/globals.scss");
+// @import url("../components/globals.scss");
 
 body
 {
@@ -434,6 +434,26 @@ body
             top: 12px;
             color: $text-color;
             position: absolute;
+         }
+      }
+   }
+}
+
+@media (max-width: 600px)
+{
+   .login 
+   {
+      &__header 
+      {
+         .logo 
+         {
+            margin: 0;
+            
+            .svg-icon 
+            {
+               height: 20px;
+               width: 120px;
+            }
          }
       }
    }
