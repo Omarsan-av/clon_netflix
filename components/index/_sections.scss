@@ -440,6 +440,13 @@
                   }
                }
             }
+
+            input:focus+label, 
+            &__ .input input:valid+label
+            {
+               font-size: 11px;
+               top: 5px;
+            }
          }
       }
    }
