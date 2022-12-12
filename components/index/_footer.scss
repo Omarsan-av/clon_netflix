@@ -121,3 +121,16 @@
          }
       }
    }
+
+   @media (max-width: 600px) 
+   {
+      .footer-container 
+      {
+         padding: 50px 5%;
+         
+         .wrapper .site-footer .footer-links__item
+         {
+            width: 50%;
+         }
+      }
+   }
