@@ -132,5 +132,12 @@
          {
             width: 50%;
          }
+
+         input:focus+label, 
+         .form .input input:valid+label
+         {
+            font-size: 11px;
+            top: 5px;
+         }
       }
    }
