@@ -361,6 +361,84 @@
       {
          padding: 0;
       }
+
+      .faq 
+      {
+         h2 
+         {
+            font-size: 26px;
+         }
+
+         .faq-list 
+         {
+            margin: 22.5px 0; 
+            width: 100%;
+            
+            &__item 
+            {
+               &--button 
+               {
+                  font-size: 18px;
+                  padding: 14.4px 21.6px;
+
+                  .svg-x 
+                  {
+                     height: 18px;
+                     width: 18px;
+                  }
+               }
+            }
+         }
+
+         .form 
+         {
+            padding: 13.6px 19px 0;
+
+            .input 
+            {
+               display: block;
+               width: 100%;
+
+               &__email 
+               {
+                  height: 48px;
+                  width: 100%;
+               }
+
+               label 
+               {
+                  font-size: 14px;
+                  top: 24%;
+                  left: 10px;
+               }
+
+               &__submit 
+               {
+                  font-size: 16px;
+                  height: 40px;
+                  margin: 0 auto;
+                  padding: 0 14px;
+                  width: auto;
+
+                  .arrow 
+                  {
+                     margin-left: 5px;
+
+                     svg 
+                     {
+                        height: 10px;
+                        width: 10px;
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   .container-faqs 
+   {
+      padding: 50px 0 52px;
    }
 
    .sections .container.reverse .stranger .animation 
